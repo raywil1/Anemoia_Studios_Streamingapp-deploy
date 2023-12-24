@@ -1,0 +1,58 @@
+.help-container {
+  color: #fff5e1;
+  background-color: #92c8c8;
+  height: 107vh;
+  width: 94.65vw;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.help-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.categories-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #83b4b4;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.category {
+  color: #fff5e1;
+  margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.category h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.category a {
+  display: block;
+  margin-bottom: 10px; /* Margin between links */
+  color: #fff5e1; /* Link color */
+  font-size: 16px; /* Font size */
+}
+
+.links-container {
+  margin-top: 10px;
+  margin: 30px;
+}
+
+.category:last-child {
+  margin-bottom: 0;
+}

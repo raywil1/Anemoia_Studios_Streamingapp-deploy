@@ -1,0 +1,70 @@
+.video-card {
+  background: #f0ffff; /* Light cyan background to match the teal theme */
+  border-radius: 50px / 50px; /* Gives an oval shape */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* adjust as needed */
+  transition: transform 0.3s ease; /* Smooth transform effect */
+}
+
+.video-card:hover {
+  transform: scale(1.03); /* Slightly enlarge cards on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+}
+
+.video-thumbnail {
+  position: relative;
+  width: 100%; /* Ensure the thumbnail covers the width */
+  height: 100px; /* Maintain aspect ratio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008080; /* Teal background like the header */
+}
+
+.video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-color: #20b2aa; /* Light Sea Green for button */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50%; /* Circular play button */
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.video-play-button:hover {
+  background-color: #008080; /* Darker teal on hover */
+}
+
+.video-info {
+  padding: 10px;
+  background-color: #e0ffff; /* Light cyan for the info background */
+}
+
+.video-title {
+  margin: 0;
+  color: #008080; /* Teal color for the title */
+}
+
+.video-description {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.video-rating {
+  font-size: 24px;
+  padding: 10px;
+
+  color: #ccc; /* Gray stars indicating no rating */
+  cursor: pointer;
+}
+.video-rating .star-rating:hover,
+.video-rating .star-rating:hover ~ .star-rating {
+  color: #ffd700; /* Gold color on hover */
+}

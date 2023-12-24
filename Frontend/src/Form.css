@@ -1,0 +1,70 @@
+/* Center the login form */
+.form {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Cinzel", sans-serif;
+  flex-direction: row;
+}
+
+/* Style the input fields */
+.form input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  font-family: "Cinzel", sans-serif;
+}
+
+.form h3 {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  white-space: nowrap;
+}
+
+.form select {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Cinzel", sans-serif;
+  width: 300px;
+}
+
+.form button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #008080;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+  font-family: "Cinzel", sans-serif;
+}
+
+.form .error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.form a {
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
+
+.form a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,50 @@
+.settings-container {
+  color: #fff5e1; 
+  background-color: #020200; 
+  height: 107vh;
+  width: 94.65vw;
+  padding: 10px;
+}
+
+.settings-header {
+  font-family: "Cinzel", sans-serif;
+  font-size: 30px;
+  margin-bottom: 55px;
+}
+
+.settings-category {
+  margin-top: 30px;
+}
+
+.settings-category-header {
+  font-family: "Cinzel", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.settings-subcategory {
+  margin-left: 20px;
+}
+
+.settings-subcategory-link {
+  display: block;
+  text-decoration: none;
+  color: #bbb;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.settings-subcategory-link:hover {
+  text-decoration: underline;
+}
+
+.settings-outline-bar {
+  border-left: 2px solid #fff5e1;
+  padding-left: 10px;
+  transition: padding-left 0.3s;
+}
+
+.settings-outline-bar:hover {
+  padding-left: 15px;
+}

@@ -1,0 +1,14 @@
+In order for server to run properly a .env file must be created inside 
+the 'backend' folder. The .env file is hidden and must be created each 
+time you pull because of the high security needed for the URI key.
+
+The .env file should be written as so (This is just an examaple):
+
+.env
+--------------------------------------------------
+DATABASE_URI = mongodb+srv://NAME_GOES_HERE:PASSWORD_GOES_HERE@cluster0.frfe2zj.mongodb.net //See chat for full link
+PORT = 3000       //Or any port number you choose
+---------------------------------------------------
+
+Good luck,
+-Blaise 

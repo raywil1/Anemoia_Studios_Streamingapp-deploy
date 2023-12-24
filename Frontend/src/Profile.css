@@ -1,0 +1,56 @@
+.profile-container {
+  color: #FFF5E1;
+  background-color: #92c8c8;
+  height: 107vh;
+  width: 94.65vw;
+  padding: 10px;
+
+}
+
+.profile-container .profile-header,
+.profile-container .Profile,
+.profile-container .profile-name,
+.profile-container .textWithButton {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.profile-header {
+  text-align: left;
+  margin-bottom: 70px;
+  border-left: 2px solid #fff5e1;
+  padding-left: 10px;
+  transition: padding-left 0.3s;
+}
+
+.textWithButton {
+  text-align: left;
+  margin-top: 50px;
+  border-left: 2px solid #fff5e1;
+  padding-left: 10px;
+  transition: padding-left 0.3s;
+}
+
+.Profile {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.profile-name {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.vid-grid {
+  margin-top: 20px;
+  
+}
+
+.profile-name:hover {
+
+  cursor: pointer; 
+}
+
+.textWithButton:hover {
+  
+  cursor: pointer; /* Add a pointer cursor on hover */
+}

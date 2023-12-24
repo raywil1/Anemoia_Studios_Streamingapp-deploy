@@ -1,0 +1,30 @@
+# name: Node.js CI
+
+# on:
+#   push:
+#     branches: [ "main" ]
+#   pull_request:
+#     branches: [ "main" ]
+
+# jobs:
+#   build-and-test-frontend:
+#     runs-on: windows-latest
+#     defaults:
+#       run:
+#         working-directory: ./frontend # change to your frontend directory
+
+#     strategy:
+#       matrix:
+#         node-version: [20.x] # "20.x" will use the latest 20.x version
+
+#     steps:
+#     - uses: actions/checkout@v3
+#     - name: Use Node.js ${{ matrix.node-version }}
+#       uses: actions/setup-node@v3
+#       with:
+#         node-version: ${{ matrix.node-version }}
+#         cache: 'npm'
+#     - run: npm install
+#     - run: npm test
+
+  
